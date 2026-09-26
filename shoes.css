@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+    }
+#main{
+    height: 100%;
+    width: 100%;
+    }
+#header{
+    height:10%;
+    width:100%;
+    display:flex;
+    background-color:brown;
+}
+.text{
+    display:flex;
+   align-items: center;
+    margin-left: 20px;
+    translate: 780px;
+    color: whitesmoke;
+    border-radius: 50px;
+}
+#logo{
+    height: 70%;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#pop{
+    height:50%;
+    width:10%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: hidden;
+    translate:800px;
+    border-radius: 70px;
+    background-color:black;
+    color:whitesmoke;
+}
+#header2{
+    background-color: brown;
+    height:10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom{
+    height: 70%;
+    width:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    border-style:hidden;
+    border-radius:100px;
+    background-color: #ff9a1f;
+    color: whitesmoke;
+    
+}
+#ko{
+    background-color: whitesmoke;
+    color: black;
+}
+#header3{
+    height: 5%;
+    width: 100%;
+    background-color: brown;
+}
+#page1{
+    height: 100%;
+    width:30%;
+    background-color: aqua;
+    background-color: brown;
+}
+#text{
+    font-size:40px;
+    color: whitesmoke;
+    margin-left: 10px;
+    transform: translatey(20px);
+
+}
+#text1{
+    color: white;
+    transform:translate(20px,20px);
+}
+#imgf{
+    height: 55%;
+    width:100%;
+    display:flex;
+
+}
+#hype{
+    height: 100%;
+    width:50% ;
+    background-color:brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text2{
+    color: whitesmoke;
+    font-size:220px;
+    transform: scaley(1.6);
+    margin-bottom: 70px;
+    margin-right: 60px;
+
+}
+#img1{
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 15px;
+
+}
+#text3{
+    height: 100%;
+    width:20%;
+    background-color: brown;
+
+}
+#cho{
+    color: whitesmoke;
+    font-size: larger;
+    transform: translateY(20px);
+
+}
+#cir{
+    display: flex;
+    margin-left: 10px;
+    transform: translateY(30px);
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid whitesmoke;
+    margin-left: 10PX;
+    margin-top: 10px;
+font-weight: bold;
+
+}
+#pir{
+    display: flex;
+    margin-left: 10px;
+    transform: translateY(40px);
+
+}
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: blue;
+}
+#part3{
+    height:20%;
+    width:100%;
+    background-color:brown;
+    display: flex;
+    
+}
+.logos{
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10PX;
+    
+}
+#lg{
+    height:20%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: 10PX;
+
+}
+#lg2{
+    height:100%;
+    width:60%;
+    background-color:brown;
+
+}
+#slg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: whitesmoke;
+   transform: translateY(20px);
+}
+#slg span{
+    height: 1px;
+    background-color: white;
+    flex: 1;
+    margin: 10px;
+
+}
+#dps{
+    height:100%;
+    width: 20%;
+    background-color:brown;
+    display: flex;
+    justify-content:center ;
+   
+}
+#sha{
+    height: 20%;
+    width: 60%;
+    border-style: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    color: black;
+    background-color: whitesmoke;
+    transform: translateY(20px);
+}
+.text:hover{
+    background-color: black;
+}
+#pop:hover{
+    color:black;
+    background-color: whitesmoke;
+}
+#sha:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.logos:hover{
+    background-color: black;
+    color: whitesmoke;
+}

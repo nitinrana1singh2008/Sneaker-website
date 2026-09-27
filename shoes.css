@@ -247,3 +247,206 @@ font-weight: bold;
     background-color: black;
     color: whitesmoke;
 }
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 600px) {
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    #main {
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+
+    /* HEADER */
+    #header {
+        height: 8%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo {
+        height: 60%;
+        width: 100px;
+        margin: 10px;
+    }
+
+    .text {
+        margin-left: 0;
+        translate: 0;
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    #pop {
+        translate: 0;
+        width: 80px;
+        height: 40%;
+        margin: 0 8px 0 5px;
+        font-size: 11px;
+    }
+
+
+    /* PRODUCT / CUSTOM BUTTONS */
+    #header2 {
+        height: 8%;
+    }
+
+    .custom {
+        width: 80px;
+        height: 55%;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+
+    #header3 {
+        height: 3%;
+    }
+
+
+    /* MAIN HERO AREA */
+    #imgf {
+        height: 61%;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+
+
+    /* LEFT TEXT */
+    #page1 {
+        width: 30%;
+        height: 100%;
+    }
+
+    #text {
+        font-size: 24px;
+        margin-left: 5px;
+        transform: translateY(10px);
+        line-height: 1.1;
+    }
+
+    #text1 {
+        font-size: 10px;
+        transform: translate(5px, 15px);
+        line-height: 1.3;
+    }
+
+
+    /* HYPE */
+    #hype {
+        width: 50%;
+        height: 100%;
+    }
+
+    #text2 {
+        font-size: 85px;
+        transform: scaley(1.5);
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+
+
+    /* SHOE */
+    #img1 {
+        height: 35%;
+        width: 45%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 0;
+        z-index: 5;
+    }
+
+    #img1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+    /* RIGHT COLOR SECTION */
+    #text3 {
+        width: 20%;
+        height: 100%;
+    }
+
+    #cho {
+        font-size: 12px;
+        transform: translateY(15px);
+        margin-left: 2px;
+    }
+
+    #cir {
+        margin-left: 0;
+        transform: translateY(20px);
+        flex-wrap: wrap;
+    }
+
+    .circle {
+        height: 20px;
+        width: 20px;
+        font-size: 8px;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+
+    #pir {
+        margin-left: 0;
+        transform: translateY(25px);
+        flex-wrap: wrap;
+    }
+
+
+    /* BOTTOM SECTION */
+    #part3 {
+        height: 20%;
+        width: 100%;
+    }
+
+    .logos {
+        margin-left: 3px;
+    }
+
+    #lg {
+        height: 20%;
+        width: 25%;
+        margin: 3px;
+    }
+
+    #lg2 {
+        width: 55%;
+    }
+
+    #slg {
+        font-size: 10px;
+        transform: translateY(10px);
+        white-space: nowrap;
+    }
+
+    #slg span {
+        margin: 5px;
+    }
+
+    #dps {
+        width: 20%;
+    }
+
+    #sha {
+        width: 90%;
+        height: 20%;
+        font-size: 9px;
+        transform: translateY(10px);
+    }
+}
